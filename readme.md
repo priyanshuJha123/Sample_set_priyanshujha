@@ -28,3 +28,17 @@ This project demonstrates a chatbot built using LangChain that can retrieve info
 * it has uploading feature that connects to pinecone databse with api key
 * you can interact one file is connected
 This project implements a Question-Answering (QA) Chatbot using Pinecone for vector-based search, Sentence Transformers for encoding text, and Streamlit for building an interactive web app. The bot allows users to upload PDFs, indexes the content, and answers questions based on the uploaded documents.
+Example Usage
+*Upload a PDF on machine learning.
+*Ask: "What is supervised learning?"
+The chatbot will return relevant content from the uploaded PDF.
+## Dependencies
+* Python 3.7 or higher
+* sentence-transformers
+* pinecone-client
+* streamlit
+* PyPDF2
+## Future Improvements
+* Support multiple PDFs for indexing.
+* Caching results to improve response time.
+* Explore other transformer models for better performance.
